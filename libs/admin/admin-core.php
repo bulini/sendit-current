@@ -1089,8 +1089,13 @@ $pro_plugins = array(
         			  '5'
         			  ),
 
-
-
+        		array('Sendit Pro Woocommerce importer',
+        			  'sendit-woocommerce-import/sendit-woocommerce-import.php',
+        			  'http://sendit.wordpressplanet.org/plugin-shop/sendit-pro-woocommerce-importer/?panel_from_domain='.$siteurl,
+        			  'Track your newsletter campaign by tracking visitors from newsletter with Google Analytics Integration',
+        			  $file_dir.'images/scheduler-90x90.jpg',
+        			  '5'
+        			  ),
 
         		array('Sendit Pro Analytics Campaign tracker',
         			  'sendit-pro-analytics-campaign/sendit-pro-analytics-campaign.php',
